@@ -6,7 +6,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from api.modules.github.github_response import ContributorResponse, IssueResponse
+from api.modules.github.github_response import ContributorResponse
 from api.modules.github.settings import GITHUB_API_GET_CONTRIBUTORS_URL
 
 hour_difference = timedelta(days=1)
