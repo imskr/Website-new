@@ -7,7 +7,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 from api.modules.github.github_response import ContributorResponse, IssueResponse
-from api.modules.github.settings import GITHUB_API_GET_CONTRIBUTORS_URL, GITHUB_API_GET_ISSUES_URL
+from api.modules.github.settings import GITHUB_API_GET_CONTRIBUTORS_URL
 
 hour_difference = timedelta(days=1)
 requests_cache.install_cache(expire_after=hour_difference)
